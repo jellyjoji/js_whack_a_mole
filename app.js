@@ -5,7 +5,7 @@ let lastHole;
 let timeUp = false;
 let score = 0;
 
-function randTim(min, max){
+function randomTime(min, max){
     return Math.round(Math.random()*(max-min)+min);
 }
 function randomHole(holes){
